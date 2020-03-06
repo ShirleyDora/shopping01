@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+html,body{
+	height:117%;
+}
+/*顶部导航*/
+.dingbu{
+	background:linear-gradient(#f2f2f2,#fbfbfb,#f2f2f2);
+	display:flex;
+	padding:10px;
+}
+.dingbu_lianjie{
+	flex-grow:1;
+}
+.dingbu_lianjie_img{
+	width:20px;
+	height:20px;
+}
+.dingbu_biaoti{
+	flex-grow:1;
+	color:dimgray;
+}
+/*产品列表*/
+
+.gwc_cp{
+	width:100%;
+}
+/*产品列表-单号栏*/
+.dingdan_hao{
+	display: flex;
+	padding:10px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #f2f2f2;
+}
+.dingdan_hao_zuo{
+	flex-grow: 1;
+	font-size: 14px;
+	color:gray;
+}
+.dingdan_hao_you{}
+.dingdan_hao_you_img{
+	width:19px;
+	height:19px;
+	padding-right: 10px;
+}
+/*产品列表-产品区块*/
+.gwc_cp_xiangmu{
+	display:flex;
+	width:100%;
+	align-items: center;
+	padding:5px;
+	box-sizing: border-box;
+}
+.gwc_cp_xiangmu_xuanze{
+	width:8%;
+	text-align: center;
+}
+.gwc_cp_xiangmu_xuanze_chk{
+	width:20px;
+	height:20px;
+}
+.gwc_cp_xiangmu_tupian{
+	width:27%;
+	padding:5px;
+	text-align:center;
+}
+.gwc_cp_xiangmu_tupian_img{
+	width:80px;
+	height:80px;
+	border:1px solid #f2f2f2;
+	box-shadow: 2px 2px 2px grey;
+}
+.gwc_cp_xiangmu_xinxi{
+	width:65%;
+}
+.gwc_cp_xiangmu_xinxi_biaoti{
+	font-size:15px;
+}
+.gwc_cp_xiangmu_xinxi_shuxing{
+	font-size:13px;
+	color:gray;
+	padding:3px 0 3px 0;
+}
+.gwc_cp_xiangmu_xinxi_jiage{
+	display:flex;
+}
+.gwc_cp_xiangmu_xinxi_jiage_zuo{
+	color:red;
+	flex-grow: 1;
+}
+.gwc_cp_xiangmu_xinxi_jiage_you{
+	border:1px solid #bbbbbb;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.gwc_cp_xiangmu_xinxi_jiage_you1{
+	padding:3px;
+	width:16px;
+	height:16px;
+}
+.gwc_cp_xiangmu_xinxi_jiage_you2{
+	height:22px;
+	border:0;
+	border-left:1px solid #bbbbbb;
+	border-right:1px solid #bbbbbb;
+	outline:none;
+	border-radius:0;
+	width:30px;
+	text-align: center;
+}
+.gwc_cp_xiangmu_xinxi_jiage_you3{
+	padding:3px;
+	width:16px;
+	height:16px;
+}
+.huise{
+	height:10px;
+	background-color:#f2f2f2;
+}
+/*底部结算*/
+.dibu_jiesuan{
+	display:flex;
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	height:35px;
+	border-top:1px solid #bbbbbb;
+}
+.dibu_jiesuan_zuo{
+	width:20%;
+	text-align: center;
+	background-color: #d9d9d9;
+	height:35px; 
+	line-height:35px;
+}
+.dibu_jiesuan_zuo_input{
+	
+}
+.dibu_jiesuan_zhong{
+	width:60%;
+	text-align: center;
+	height:35px;
+	line-height: 35px;
+	color:orange;
+	background-color:white;
+}
+.dibu_jiesuan_you{
+	width:20%;
+	text-align: center;
+	background-color: red;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color:white;
+}

@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+.yonghu{
+	display:flex;
+	background-color: #F0B3B4;
+	padding:5px;
+}
+.yonghu_touxiang{
+	padding:10px;
+}
+.yonghu_touxiang_img{
+	width:80px;
+	height:80px;
+	border-radius:50%;
+	box-shadow: 1px 1px 1px #f2f2f2;
+	border:1px solid white;
+}
+.yonghu_xinxi{
+	padding:15px;
+	color:white;
+}
+.yonghu_xinxi_nicheng{
+	color:#C616F5;
+}
+.yonghu_xinxi_dengji{
+	padding:5px 0 5px 0;
+	font-size:13px;
+}
+.yonghu_xinxi_shouji{
+	color:#338AF1;
+}
+/*导航菜单*/
+/*导航菜单-我的订单*/
+.daohang{
+	display: flex;
+	align-items:center;
+	padding:5px;
+	border-bottom: 1px solid #f2f2f2;
+}
+.daohang_img{
+	width:16px;
+	height:16px;
+}
+.daohang_biaoti{
+	flex-grow: 1;
+	padding-left:10px;
+}
+.daohang_you{}
+/*导航菜单-我的订单-快捷菜单*/
+.caidan{
+	display: flex;
+	padding:10px;
+}
+.caidan_lianjie{
+	width:25%;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	position:relative;
+}
+.caidan_img{
+	width:30px;
+}
+.caidan_mingcheng{
+	font-size:14px;
+	color:dimgray;
+}
+.caidan_tishi{
+	background-color:red;
+	width:14px;
+	height:14px;
+	font-size:12px;
+	color:white;
+	text-align:center;
+	line-height:14px;
+	border-radius:50%;
+	position:absolute;
+	bottom:35px;
+	left:70%;
+}
+.huise{
+	background-color:#f2f2f2;
+	height:10px;
+}
+.daohang2{
+	display: flex;
+	align-items:center;
+	padding:5px;
+	border-bottom: 1px solid #f2f2f2;
+}
+.daohang2_img{
+	width:16px;
+	height:16px;
+}
+.daohang2_biaoti{
+	flex-grow: 1;
+	padding-left:10px;
+}
+.daohang2_you{
+	width:16px;
+	height: 16px;
+}

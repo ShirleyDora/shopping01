@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+.dingbu{
+	background:linear-gradient(#f2f2f2,#fbfbfb,#f2f2f2);
+	display:flex;
+	padding:10px;
+}
+.dingbu_lianjie{
+	flex-grow:1;
+}
+.dingbu_lianjie_img{
+	width:20px;
+	height:20px;
+}
+.dingbu_biaoti{
+	flex-grow:1;
+	color:dimgray;
+}
